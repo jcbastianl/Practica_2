@@ -30,13 +30,9 @@ public class VendedorControl extends DaoImplement <Vendedor> {
 
     //Método que permite guardar
     public Boolean guardar() {
-        try {
-            getVendedor().setId(vendedores.getLenght());
-            vendedores.add(getVendedor());
+            
             return true;
-        } catch (Exception e) {
-            return false; 
-        }
+        
     }
 
     public Integer posVerificar() throws EmptyException {

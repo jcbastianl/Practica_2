@@ -21,7 +21,7 @@ public class ModeloTablaVendedor extends AbstractTableModel {
 
     @Override
     public int getColumnCount() {
-        return 4;
+        return 3;
     }
 
     @Override
@@ -35,9 +35,7 @@ public class ModeloTablaVendedor extends AbstractTableModel {
                     return (p != null) ? p.getApellido() + " " + p.getNombre() : "";
                 case 2:
                     return (p != null) ? p.getTelefono() : "";
-                case 3:
-                    return (p != null) ? p.getEmail() : "";
-              
+               
                 default:
                     return null;
             }
@@ -55,8 +53,7 @@ public class ModeloTablaVendedor extends AbstractTableModel {
                 return "USUARIO";
             case 2:
                 return "TELEFONO";
-            case 3:
-                return "EMAIL";
+          
             default:
                 return null;
         }

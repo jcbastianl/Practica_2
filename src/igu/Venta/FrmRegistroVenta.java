@@ -111,7 +111,8 @@ public Boolean verificar() {
     }
     return true;
     }
-
+ 
+ 
 private void limpiar() {
       
        
@@ -267,7 +268,7 @@ public void cargarVendedoresEnComboBox(JComboBox cbx) throws EmptyException {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(189, 189, 189)
                         .addComponent(jLabel1)))
-                .addContainerGap(55, Short.MAX_VALUE))
+                .addContainerGap(64, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

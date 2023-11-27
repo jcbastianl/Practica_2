@@ -95,7 +95,7 @@ public class Casa {
 
     @Override
     public String toString() {
-        return "Casa{" + "id=" + id + ", direccion=" + direccion + '}';
+        return   "id=" + id + ", direccion=" + direccion;
     }
   
     

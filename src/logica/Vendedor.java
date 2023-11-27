@@ -31,7 +31,7 @@ public class Vendedor implements Serializable {
         this.nombre = nombre;
         this.apellido = apellido;
         this.telefono = telefono;
-        this.email = email;
+       
         this.ventas = ventas;
         this.numeroVentas = numeroVentas;
         this.DNI = DNI;
@@ -69,13 +69,7 @@ public class Vendedor implements Serializable {
         this.telefono = telefono;
     }
 
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
+ 
 
     public List<Venta> getVentas() {
         return ventas;
